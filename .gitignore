@@ -1,4 +1,4 @@
-
+# Latex
 *.aux
 *.bbl
 *.blg
@@ -7,4 +7,8 @@
 *.tdo
 *.toc
 *-converted-to.pdf
+# Emacs
+*~
+# Vim
+*.swp
 

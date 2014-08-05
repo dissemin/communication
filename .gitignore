@@ -9,6 +9,8 @@
 *-converted-to.pdf
 # Emacs
 *~
+\#*\#
+.\#*
 # Vim
 *.swp
 

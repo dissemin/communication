@@ -1,0 +1,21 @@
+  \begin{tikzpicture}
+    \foreach \i in {1,2,3,4} {
+      \node[circle,draw] at (\i,4) (x\i) {$x_{\i}$};
+    }
+    \foreach \i in {1,2,...,5} {
+      \node[circle,draw] at ($(\i,2)-(0.5,0)$) (h\i) {$h_{\i}$};
+      \foreach \j in {1,2,3,4} {
+        \draw[-latex] (x\j) -- (h\i);
+      }
+    }
+    \foreach \i in {1,2} {
+      \node[circle,draw] at ($(\i,0)+(1,0)$) (y\i) {$y_{\i}$};
+      \foreach \j in {1,2,...,5} {
+        \draw[-latex] (h\j) -- (y\i);
+      }
+    }
+    
+    \node at (6,4) {\footnotesize Input layer};
+    \node at (6,2) {\footnotesize Hidden layer};
+    \node at (6,0) {\footnotesize Output layer};
+\end{tikzpicture}

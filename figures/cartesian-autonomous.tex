@@ -1,0 +1,65 @@
+\begin{figure}[H]
+\centering
+  \begin{tikzpicture}[scale=1.5,every node/.style={scale=1.5}]
+\makeatletter
+
+\pgfdeclareshape{triangle}{
+    \inheritsavedanchors[from=rectangle]
+    \inheritanchorborder[from=rectangle]
+    \inheritanchor[from=rectangle]{center}
+    \inheritanchor[from=rectangle]{north}
+    \inheritanchor[from=rectangle]{south}
+    \inheritanchor[from=rectangle]{east}
+    \inheritanchor[from=rectangle]{southwest}
+    \inheritanchor[from=rectangle]{southeast}
+
+    \backgroundpath{
+        \southwest \pgf@xb=\pgf@x \pgf@yb=\pgf@y
+        \northeast \pgf@xa=\pgf@x \pgf@ya=\pgf@y
+        \pgf@xc=0.5\pgf@xa \advance\pgf@xc by+0.5\pgf@xb
+
+        \pgfpathmoveto{\pgfpoint{\pgf@xc}{\pgf@ya}}
+        \pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@yb}}
+        \pgfpathlineto{\pgfpoint{\pgf@xa}{\pgf@yb}}
+        \pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@ya}}
+    }
+}
+
+\tikzstyle{big-triangle}=[triangle,draw,inner sep=0pt,minimum width=0.5cm,minimum height=0.15cm]
+\tikzstyle{medium-triangle}=[big-triangle,scale=0.7]
+\tikzstyle{vbig-triangle}=[big-triangle,scale=2]
+\tikzstyle{mbig-triangle}=[big-triangle,scale=1.2]
+\tikzstyle{small-triangle}=[big-triangle,scale=0.25]
+
+    \node[vbig-triangle,rotate=180] at (0,-0.5) (n1) {};
+    \node[vbig-triangle] at (0.5,0.5) (n2) {};
+    \draw (-0.25,0.8) -- (-0.25,-0.33);
+    \draw (0.75,-0.8) -- (0.75,0.33);
+    \draw (0.25,-0.33) -- (0.25,0.33);
+
+    \node at (1.75,0) {$=$};
+    \begin{scope}[xshift=3cm]
+    \node[vbig-triangle,rotate=180] at (0,-0.5) (n1) {};
+    \node[mbig-triangle] at (0.25,0.44) (n2) {};
+    \node[mbig-triangle] at (1,0.44) (n2) {};
+    \draw (-0.25,0.8) -- (-0.25,-0.33);
+    \draw (1,-0.8) -- (1,0.33);
+    \draw (0.25,-0.33) -- (0.25,0.33);
+
+    \node at (1.9,0) {$=$};
+    \begin{scope}[xshift=3cm]
+    \node[mbig-triangle,rotate=180] at (0,-0.44) (n1) {};
+    \node[mbig-triangle] at (1,0.44) (n2) {};
+    \draw (0,0.8) -- (0,-0.33);
+    \draw (1,-0.8) -- (1,0.33);
+
+   \node at (2,0) {$\neq$};
+    \begin{scope}[xshift=2.9cm]
+    \draw (-0.1,0.8) -- (-0.1,-0.8);
+    \end{scope}
+    \end{scope}
+  
+    \end{scope}
+  
+  \end{tikzpicture}
+\end{figure}

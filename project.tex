@@ -2,9 +2,17 @@
 
 \input{prelude}
 
-\title{How general are categorical models of meaning?}
-\date{\today}
-
+\title{How flexible are categorical models of meaning?}
+\date{}
+\author{
+    Antonin Delpeuch \\
+    University of Cambridge \\
+    \texttt{antonin@delpeuch.eu}
+    \and
+    Anne Preller \\
+    LIRMM \\
+    \texttt{preller@lirmm.fr}
+}
 \begin{document}
 
 \maketitle
@@ -12,10 +20,11 @@
 \section{Introduction}
 
 The distributional compositional model of meaning of \cite{clark2008compositional}
-is motivated by category theory, and has hence many elegant properties. In practice
-however, implementations often depart from the original framework: after all, if
+is motivated by category theory, and enjoys hence many useful mathematical properties. For instance,
+the spurious ambiguity in CCG has no impact on the final semantic representation of a sentence.
+In practice however, implementations often depart from the original framework: after all, if
 stacking two vectors yields better results than taking their outer product, why should
-we bother abiding by this mathematical orthodoxy? 
+we bother abiding by this mathematical orthodoxy?
 
 In this poster, we argue that we can get both the theoretical guarantees
 of category theory and the flexibility of alternate models of meaning using
@@ -45,47 +54,40 @@ consists in taking the sum of the vectors for each word in the sentence.
 This baseline cannot be recast in $\Vect$
 because $u + v$ is not a linear function of $u \otimes v$.
 
-Another argument against linearity is that it can ignore some form
+Another argument against linearity is that it ignores some kind
 of structure in the vectors, such as the famous $\vec{King} - \vec{Man}
 + \vec{Woman} \simeq \vec{Queen}$ of \cite{mikolov2013efficient}. When this
 kind of relation holds, one might want to represent adjectives such as \emph{female}
-by functions adding a vector to their argument, but it is
+by a function adding a vector to their argument, but it is
 impossible if our arrows are simply linear maps: we would need affine maps.
 
 \section{Alternate models of meaning}
 
 Replacing the tensor product by the direct sum $\oplus$ solves
 the problems mentionned above: $u + v$ is a linear function of $(u,v)$.
-Moreover, the dimension of $U \otimes V$ is $\dim U + \dim V$,
-which solves the dimensionality issues of tensors.
+Moreover, the dimension of $U \oplus V$ is $\dim U + \dim V$,
+which reduces the dimension of compound spaces.
 
-However, there is no equivalent of tensor contraction (also called the counit)
+However, there is no equivalent of tensor contraction (also called \emph{counit})
 for the direct sum.
-This is where free compact closed categories become useful: we can embed
+This is where free compact closed categories come in handy: we can embed
 our candidate model of meaning in a larger category where units and counits exist.
+These formal units and counits are then eliminated using the yanking equations:
+
+\input{figures/yanking}
 
 We can go further by allowing
 nonlinearities, which leads us to neural models of meaning. 
-Neural networks are functions obtained by the composition of linear maps
-and a special non-linear function called the activation function.  We
-fix such a function $\sigma : \mathbb{R} \to \mathbb{R}$. It is
-generally required to be continuous, non-constant and bounded.  The
-\emph{neuron} is the basic block of these networks: it applies the
-nonlinear function to an affine combination of its inputs: $p :
-\mathbb{R}^n \to \mathbb{R} \coloneqq \sigma \circ f$ where $f$ is
-affine and $\sigma$ is the activation function.  How this basic block
-can be combined to make more complex networks is conveniently described
-by a monoidal category.
 
 The following figure compares the
 classical representation of a neural network to its string diagram in
-$\Net$.
+$\Net$, the category of vector spaces and continuous maps between them.
 
 \begin{figure}[H]
   \centering
   \begin{subfigure}[b]{0.45\textwidth}
     \input{figures/normalform} %\vspace{0.1cm}
-    \caption{An arrow in $\Net_\sigma$. \\ $f$ and $g$ are affine maps.}
+    \caption{An arrow in $\Net$. \\ $f$ and $g$ are affine maps and $\sigma$ is a nonlinearity.}
     \label{fig:normalform}
   \end{subfigure}
   \begin{subfigure}[b]{0.45\textwidth}
@@ -94,8 +96,6 @@ $\Net$.
     \label{fig:neuralnet}
   \end{subfigure}
 \end{figure}
-
-
 
 \bibliographystyle{chicago}
 \bibliography{references}

@@ -1,0 +1,89 @@
+\documentclass[30pt,a1paper]{tikzposter}
+
+\usepackage{subcaption}
+
+\title{How flexible are categorical models of meaning?}
+\institute{University of Cambridge}
+\author{Antonin Delpeuch}
+\titlegraphic{Logo}
+\usetheme{Simple}
+% Simple
+% Autumn
+\begin{document}
+    \maketitle
+    \block{Why are we using tensors after all?}{
+        \Large {
+
+The category theory behind the distributional compositional model gives useful properties:
+for instance, the spurious ambiguity in CCG has no impact on the final semantic representation of a sentence.
+In practice however, implementations often depart from the original framework, because using
+only tensors and linear maps does not always give the best results.
+
+We can get both the theoretical guarantees
+of category theory and the flexibility of alternate models of meaning using
+the notion of \emph{free compact closed category}. }
+
+    }
+    \begin{columns}
+        \column{0.5}
+        \block{Monoidal}{
+            Vertical ($\circ$) and horizontal ($\otimes$) composition of morphisms.
+            \begin{minipage}{0.6\linewidth}
+                \input{figures/monoidal}
+            \end{minipage}
+            \begin{minipage}{0.25\linewidth}
+                \input{figures/trivial-equality}
+            \end{minipage}
+        }
+        \column{0.5}
+        \block{Compact closed}{
+            Monoidal, plus \emph{cups} $\epsilon$ and \emph{caps} $\eta$ for each object $A$ such that:
+            \input{figures/caps-cups}
+        }
+    \end{columns}
+    \block{Recipe: turning a monoidal category $\mathcal{C}$ into a compact closed category $\mathcal{C'}$}{
+        \begin{minipage}{0.46\linewidth}
+        \begin{enumerate}
+            \item Draw word meanings using morphisms from $\mathcal{C}$, using imaginary cups and caps to
+                 introduce adjoints where needed
+             \item Compose word meanings with the type reduction
+                   and apply the yanking equalities in $\mathcal{C'}$.
+            \item You get a diagram without cups and caps, hence a valid morphism in $\mathcal{C}$.
+        \end{enumerate}
+        \end{minipage}
+        \begin{minipage}{0.46\linewidth}
+            \hspace{3cm}
+        \input{figures/octo}
+        \end{minipage}
+    }
+
+    \begin{columns}
+        \column{0.5}
+        \block{Cartesian}{
+            The category of vector spaces with the cartesian product is not
+            so it cannot be used as is for models of meaning,
+            but has interesting properties.
+        \begin{itemize}
+            \item $\dim A \times B = \dim A + \dim B$: low dimensionality, word
+                 representations are easier to learn
+            \item Morphisms can be any maps, in particular
+                 non-linear ones
+            \item No compact closure: type reductions cannot be represented as morphisms
+        \end{itemize}
+        }
+        \column{0.5}
+        \block{Tensor}{
+            This is the traditional category for models of meaning.
+        \begin{itemize}
+            \item $\dim A \otimes B = \dim A \times \dim B$: high dimensionality, word
+                 representations are harder to learn
+            \item Morphisms have to be linear, not monoidal otherwise
+            \item Compact closure: type reductions can be represented as morphisms
+        \end{itemize}
+        }
+    \end{columns}
+
+    \block{}{Blocktext}
+
+
+\end{document}

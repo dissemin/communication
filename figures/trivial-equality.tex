@@ -1,0 +1,39 @@
+\begin{tikzpicture}[every node/.style={node distance=2cm}]
+\node[draw,rectangle] (a1) {$f_2$};
+%\node[right of=a1, node distance=0.8cm] {$\otimes$};
+\node[draw,rectangle,right of= a1] (b1) {$g_2$};
+\node[draw,rectangle,below of=a1] (c1) {$f_1$};
+%\node[right of=c1, node distance=0.8cm] {$\otimes$};
+\node[draw,rectangle,below of=b1] (d1) {$g_1$};
+\node[above of=a1,node distance=1.8cm] (p1) {};
+\node[above of=b1,node distance=1.8cm] (p2) {};
+\node[below of=c1,node distance=1.8cm] (p3) {};
+\node[below of=d1,node distance=1.8cm] (p4) {};
+\draw (p1) -- (a1) -- (c1) -- (p3);
+\draw (p2) -- (b1) -- (d1) -- (p4);
+\node[left of=a1,node distance=1cm] {$\Big($};
+\node[left of=c1,node distance=1cm] {$\Big($};
+\node[right of=b1,node distance=1cm] {$\Big)$};
+\node[right of=d1,node distance=1cm] {$\Big)$};
+
+\node[right of=b1] (blank) {};
+\node[below of=blank,node distance=1cm] (egal) {$=$};
+
+\node[draw,rectangle,right of=blank] (a1) {$f_2$};
+\node[draw,rectangle,right of= a1,node distance=2.7cm] (b1) {$g_2$};
+\node[draw,rectangle,below of=a1] (c1) {$f_1$};
+\node[draw,rectangle,below of=b1] (d1) {$g_1$};
+\node[above of=a1,node distance=1.8cm] (p1) {};
+\node[above of=b1,node distance=1.8cm] (p2) {};
+\node[below of=c1,node distance=1.8cm] (p3) {};
+\node[below of=d1,node distance=1.8cm] (p4) {};
+\draw (p1) -- (a1) -- (c1) -- (p3);
+\draw (p2) -- (b1) -- (d1) -- (p4);
+\node[right of=egal,node distance=0.9cm] (p1) {\Large $\Bigg($};
+\node[right of=p1,node distance=2.20cm] (p2) {\Large $\Bigg)$};
+\node[right of=p1,node distance=2.8cm] (p3) {\Large $\Bigg($};
+\node[right of=p3,node distance=2.1cm] (p4) {\Large $\Bigg)$};
+%\node[right of=p2,node distance=0.25cm] (otimes) {$\otimes$};
+
+\end{tikzpicture}
+

@@ -1,0 +1,45 @@
+\begin{tikzpicture}[scale=3,every node/.style={node distance=2.5cm,scale=0.7}]
+\node[draw,rectangle] (fog) {$f \circ g$};
+\node[above of=fog,node distance=3.5cm] (A1) {$A$};
+\node[below of=fog,node distance=3.5cm] (C1) {$C$};
+\draw (fog) -- (A1);
+\draw[->] (fog) -- (C1);
+
+\node[right of=fog] (eg1) {$=$};
+
+\node[right of=eg1] (B2) {$B$};
+\node[draw,rectangle,above of=B2,node distance=1.75cm] (f1) {$g$};
+\node[above of=f1,node distance=2.04cm] (A2) {$A$};
+\node[draw,rectangle,below of=B2,node distance=1.75cm] (g1) {$f$};
+\node[below of=g1,node distance=2.04cm] (C2) {$C$};
+\draw[->] (A2) -- (f1) -- (B2) -- (g1) -- (C2);
+
+\begin{scope}[xshift=2.45cm]
+
+\node[draw,rectangle] (fcg) {$f \otimes g$};
+\node[above of=fcg,node distance=3.5cm] (A3) {$A \otimes C$};
+\node[below of=fcg,node distance=3.5cm] (B3) {$B \otimes D$};
+\draw[->] (A3) -- (fcg) -- (B3);
+
+\node[right of=fcg] (eg2) {$=$};
+
+\node[right of=eg2,draw,rectangle] (f2) {$f$}; 
+\node[right of=f2,draw,rectangle] (g2) {$g$}; 
+\node[above of=f2,node distance=3.5cm] (A4) {$A$};
+\node[above of=g2,node distance=3.5cm] (C4) {$C$};
+\node[below of=f2,node distance=3.5cm] (B4) {$B$};
+\node[below of=g2,node distance=3.5cm] (D4) {$D$};
+
+%\node[right of=A4,node distance=0.5cm] (tensor) {$\otimes$};
+%\node[right of=B4,node distance=0.5cm] (tensor) {$\otimes$};
+\draw[->] (A4) -- (f2) -- (B4);
+\draw[->] (C4) -- (g2) -- (D4);
+
+\end{scope}
+
+\begin{scope}[xshift=4cm]
+\end{scope}
+
+
+
+\end{tikzpicture}

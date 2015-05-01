@@ -86,6 +86,7 @@
 % Simple
 % Autumn
 \begin{document}
+
 \setlength{\titleheight}{3cm}
 \maketitle[titletoblockverticalspace=0cm]
 
@@ -102,9 +103,10 @@
     under diverse formats, making these policies hard to implement.
 
     We provide a \textbf{clear view on researchers' production} by harvesting
-    metadata and clustering it with a novel machine learning algorithm.
+    metadata and clustering it with a novel machine learning algorithm, improving
+    over \cite{weiler2011authormagic}.
 
-    \vspace{-1.5cm}
+    \vspace{-2cm}
 }
 \block{Data sources}{
     We retrieve metadata from three types of sources:
@@ -127,6 +129,21 @@
 \block{Merging records}{
     Records referring to the same papers are merged by computing
     a \textbf{robust fingerprint} based on the title and the author names.
+    \vspace{1cm}
+
+    \begin{tikzpicture}[scale=0.6,every node/.style={scale=0.6}]
+        \node[align=left] (l) {\emph{Inferring types over zones with an Abstract Domain} \\
+     X. Rival, T. Cheng.};
+
+ \node[align=left] at (0,-3.5) (r) {Inferring Types over Zones with an Abstract Domain \\
+ Tie Cheng, Xavier Rival};
+
+  \node at (0, -7) {Are these two papers identical?};
+
+
+    \end{tikzpicture}
+
+
 }
 
 \column{0.33}
@@ -143,7 +160,7 @@
 
 
     \vspace{1cm}
-    \hspace{-2cm}
+    \hspace{-2.4cm}
     \includegraphics[scale=0.8]{figures/clustering.eps}
 
     {\small Spanning tree created by the classifier for \emph{Zhen Zhang}}
@@ -185,7 +202,7 @@
     connected component in the graph and attributed to the target
     researcher if the overall score for the component is positive.
 
-    \vspace{-1.5cm}
+    \vspace{-1.8cm}
 }
 
 \block{Results}{
@@ -215,9 +232,10 @@
     \hspace{-2cm}
     \includegraphics{figures/rendered_papers.eps}
 
-    \vspace{-1.5cm}
+    \vspace{-2cm}
 }
 \block{References}{
+    \nocite{weiler2011authormagic}
     \renewcommand\refname{}
     \vspace{-2cm}
     {\small

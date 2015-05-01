@@ -130,18 +130,39 @@
     
     We use a \textbf{semi-supervised} approach based on a binary
     classifier trained to predict whether similar names in two
-    papers refer to the same person.
+    papers refer to the same person. This defines a graph where
+    connected components correspond to researchers.
 
 
     \vspace{1cm}
-    \hspace{-1.3cm}
-    \includegraphics[scale=0.7]{figures/clustering.eps}
+    \hspace{-2cm}
+    \includegraphics[scale=0.8]{figures/clustering.eps}
+    {\small Spanning tree created by the similarity classifier}
     \vspace{0.3cm}
 
     Our classifier is trained on a set of 2035 manually annotated
     papers where authors have been identified. We randomly
     generate positive and negative training pairs of example
     papers to train a Support Vector Machine with linear kernel.
+    
+    \vspace{1cm}
+    \begin{tikzpicture}[scale=0.6,every node/.style={scale=0.6}]
+        \node[align=left] (l) {\emph{\framebox[1.05\width]{An Abstract Domain} Combinator for Separately} \\
+            \emph{Conjoining Memory Abstractions}\\
+     Antoine Toubhans, Bor-Yuh Evan Changi, \textbf{Xavier Rival.} \\
+ \framebox[1.05\width]{Lecture Notes in Computer Science}, 2014};
+
+ \node[align=left] at (-0.8,-6) (r) {Inferring Types over Zones with \emph{\framebox[1.05\width]{an Abstract Domain}} \\
+      Tie Cheng, \textbf{Xavier Rival} \\
+  \framebox[1.05\width]{Lecture Notes in Computer Science}, 2012};
+
+  \draw (-3,2.5) .. controls (11,5) and (16,0) .. (10,-4);
+  \draw (-11.7,-2.5) edge[bend right] (-11.7,-6.7);
+
+  \node at (0, -10) {Are these two \textbf{Xavier Rival} the same person?};
+
+
+    \end{tikzpicture}
 
     Our features use unigram language models to model the similarity
     between metadata fields, and name similarity heursitics to compare

@@ -90,26 +90,25 @@
     The goal of the Open Access movement is to make the entire research litterature
     freely available online.
 
-    Universities set up open access policies to ensure that their
+    Many universities have set up open access policies to ensure that their
     researchers upload their papers to repositories.
 
-    But bibliographic metadata is scattered in many different places,
-    under diverse formats, making the implementation of these policies
-    cumbersome.
+    Yet, bibliographic metadata is scattered in many different places,
+    under diverse formats, making these policies hard to implement.
 
-    We provide a clear view on the research output of researchers by harvesting
+    We provide a clear view on researchers' production by harvesting
     metadata and clustering it with a novel machine learning algorithm.
 }
 \block{Data sources}{
     We retrieve metadata from three types of sources:
 
     \begin{itemize}[leftmargin=0pt]
-       \item Bibliographic data issued by the publishers, through
+       \item Publishers' bibliographic data, through
             the CrossRef.org API;
-       \item Full text availability in repositories, through
+       \item Metadata from open repositories, through
             the preprint search engines BASE (Bielefeld Academic
-            Search Engine) and CORE (COnnecting REpositories), plus
-            our own OAI-PMH harvester to ensure we have the latest
+            Search Engine) and CORE (COnnecting REpositories);
+       \item Our custom OAI-PMH harvester to ensure we have the latest
             records from some strategic repositories such as arXiv,
             PubMed Central and HAL;
        \item Publishers' policies, through the SHERPA/RoMEO API.
@@ -125,13 +124,16 @@
 \column{0.33}
 \block{Similarity clustering}{
     Author names are ambiguous, because researchers
-    often share the same name or change names. To reduce this
+    may share the same name or change names. To reduce this
     ambiguity, we cluster papers involving similar author names
-    to identify groups of articles written by the same person.
+    to identify which were written by the same person.
     
     We use a semi-supervised approach based on a binary
     classifier trained to predict whether similar names in two
-    different papers refer to the same person.
+    papers refer to the same person.
+
+    \hspace{-1.3cm}
+    \includegraphics[scale=0.7]{figures/clustering.eps}
 
     Our classifier is trained on a set of 2035 manually annotated
     papers where some authors have been identified. We randomly

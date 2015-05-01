@@ -1,5 +1,6 @@
 \documentclass[30pt,a1paper]{tikzposter}
 
+\usepackage{natbib}
 \usepackage{subcaption}
 \usepackage{array}
 \usepackage{pifont}
@@ -14,6 +15,9 @@
 
     \renewcommand{\bar}[1]{%
         \overline{#1}}
+
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 
 \definecolor{camBlue}{RGB}{106,173,228}
 \definecolor{myOrange}{RGB}{227,140,17}
@@ -105,15 +109,10 @@
     \begin{itemize}[leftmargin=0pt]
         \item \textbf{Publishers' bibliographic data}, through
             the CrossRef.org API;
-       \item Metadata from open repositories, through
-           the \textbf{preprint search engines} BASE (Bielefeld Academic
-            Search Engine) and CORE (COnnecting REpositories);
+        \item Metadata from \textbf{preprint search engines} \cite{knoth2011core,lossau2006bielefeld}
         \item Our custom \textbf{OAI-PMH harvester} to ensure we have the latest
-            records from some strategic repositories such as arXiv,
-            PubMed Central and HAL;
-        \item \textbf{Publishers' policies}, through the SHERPA/RoMEO API.
-             This service gives a machine-readable interpretation
-             of the self-archiving policies used by most publishers.
+            records from some strategic repositories
+        \item Machine readable \textbf{publishers' policies}, via SHERPA/RoMEO
     \end{itemize}
 }
 \block{Merging records}{
@@ -137,8 +136,8 @@
     \vspace{1cm}
     \hspace{-2cm}
     \includegraphics[scale=0.8]{figures/clustering.eps}
-    {\small Spanning tree created by the similarity classifier}
-    \vspace{0.3cm}
+
+    {\small Spanning tree created by the classifier for \emph{Zhen Zhang}}
 
     Our classifier is trained on a set of 2035 manually annotated
     papers where authors have been identified. We randomly
@@ -206,14 +205,12 @@
     \includegraphics{figures/rendered_papers.eps}
 }
 \block{References}{
-    Lorem ipsum
-
-    Lorem ipsum
-
-
-    Lorem ipsum
-
-    Lorem ipsum
+    \renewcommand\refname{}
+    \vspace{-2cm}
+    {\small
+    \bibliographystyle{plain}
+    \bibliography{references}
+}
 }
 
 

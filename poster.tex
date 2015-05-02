@@ -172,27 +172,41 @@
     papers where authors have been identified. We randomly
     generate positive and negative training pairs of example
     papers to train a Support Vector Machine with linear kernel.
-    
-    \vspace{0.2cm}
-    %\hspace{-2cm}
-    %{\scalefont{1.3}
-    \begin{tikzpicture}[scale=0.6,every node/.style={scale=0.6}]
-        \node[align=left] (l) {\emph{\framebox[1.05\width]{An Abstract Domain} Combinator for Separately} \\
-            \emph{Conjoining Memory Abstractions}\\
-     Antoine Toubhans, Bor-Yuh Evan Changi, \textbf{Xavier Rival.} \\
- \framebox[1.05\width]{Lecture Notes in Computer Science}, 2014};
 
- \node[align=left] at (-0.8,-6) (r) {Inferring Types over Zones with \emph{\framebox[1.05\width]{an Abstract Domain}} \\
-      Tie Cheng, \textbf{Xavier Rival} \\
-  \framebox[1.05\width]{Lecture Notes in Computer Science}, 2012};
+    \vspace{1.2cm}
+    {\scalefont{0.75}
+  \hspace{-.1\linewidth}
+  \begin{minipage}{1.2\linewidth}
+  \tikzstyle{every picture}+=[remember picture]
+  \tikzstyle{na} = [shape=rectangle, inner sep=0pt, draw]
+  \tikzstyle{nat} = [outer sep=0pt,inner sep=0pt]
+  \noindent \emph{\tikz[baseline={([yshift={-\ht\strutbox}]word1a.north)},nat]
+    \node[na] (word1a) {\strut An Abstract Domain\,\null};
+    Combinator for Separately
+    ~\tikz\node (fly1) {};\\
+    Conjoining Memory Abstractions
+  }\\
+  Antoine Toubhans, Bor-Yuh Evan Changi,
+  \textbf{Xavier Rival}.~\tikz\node (fly2) {};\\
+  \tikz[baseline={([yshift={-\ht\strutbox}]word2a.north)},nat]
+  \node[na] (word2a) {\strut Lecture Notes in Computer Science\,\null};, 2014
 
-  \draw (-3,2.5) .. controls (11,5) and (16,0) .. (10,-4);
-  \draw (-11.7,-2.5) edge[bend right] (-11.7,-6.7);
+  \medskip
 
-  \node at (0, -10) {Are these two \textbf{Xavier Rival} the same person?};
-    \end{tikzpicture}
-    %}
-    \vspace{-1cm}
+  \noindent \emph{Inferring Types over Zones with
+  \tikz[baseline={([yshift={-\ht\strutbox}]word1b.north)},nat]
+  \node[na] (word1b) {\strut \null\,an Abstract Domain\,\null};}\\
+  Tie Cheng, \textbf{Xavier Rival}.\\
+  \tikz[baseline={([yshift={-\ht\strutbox}]word2b.north)},nat]
+  \node[na] (word2b) {\strut Lecture Notes in Computer Science\,\null};, 2012
+
+  \begin{tikzpicture}[overlay]
+    \draw[thick](word1a.north east) .. controls ($(fly1.north east) + (1.8, 1.8)$)
+    and ($(fly2.east) + (1.5, 0)$) .. (word1b.north east);
+    \path[thick](word2a.south west) edge [out=220, in=140] (word2b.north west);
+  \end{tikzpicture}
+\end{minipage}
+    }
 
     Our features use unigram language models to model the similarity
     between metadata fields, and name similarity heursitics to compare

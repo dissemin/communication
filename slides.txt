@@ -75,7 +75,7 @@ So we only need the consentment of the authors and the plain document.
 
 # CAS authentication
 
-- the Central Authentication System (CAS) is widely deployed in universities.   
+- Central Authentication System (CAS) are widely deployed in universities.   
 - Dissemin creates an authenticated account for all the researchers.
 - No possiblity to create fake accounts.
 
@@ -87,6 +87,7 @@ So we only need the consentment of the authors and the plain document.
 - an output API
 - a docker version (it exists a VM version)
 - more API (for Zenodo for example)
+- a strong SWORD implementation
 - a meta-dissemin?
 
 And more important 

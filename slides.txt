@@ -2,9 +2,7 @@
 % The team of dissemin - presentation : Thomas Bourgeat 
 % May 12, 2015
 
-<p align="center">
 ![](figures/schemeBigpicture.png)
-</p>
 
 # The main idea 
 
@@ -44,8 +42,8 @@
 </p>
 # A human feedback for disambiguation
 
-- We added a way for authenticated users to give feedback on articles.
-- Wrong classifications corrected improve the full classification. 
+- We added a way for authenticated users to give feedback on authorship of articles.
+- to correct wrong classifications by hand will improve the full classification. 
 
 
 # Uploading full text: to improve the picture.

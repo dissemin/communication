@@ -1,0 +1,96 @@
+% An overview of dissemin
+% The team of dissemin. 
+% May 12, 2015
+
+<p align="center">
+![](figures/schemeBigpicture.png)
+</p>
+# The main idea 
+
+- This is institution centered : to help the institutions and their researchers to elaborate an open access policy.
+- Input: 
+	* list of departments
+	* list of researchers 
+- Ouput:
+	* list of annotated publications : availability, publishing policy ... 
+
+# Harvesting: the sources
+- Primary (specific APIs):
+	* CrossRef.org 
+	* Bielefeld Academic Search 
+	* SHERPA/RoMEO 
+	* Cores
+
+- And from some repositories via OAI-PMH : 
+	* arXiv
+	* HAL
+	* PubMed Central
+	* DOAJ, Persée, Cairn.info, Numdam, ... 
+
+# Upgrading the harvest
+
+- OAI-PMH is like RSS feeds (or Atom)
+- We can so just keep track of new entries.
+
+# Disambiguation 
+
+- We can get the same paper several times : we need to say that it is the same paper.
+- We need to identify authors.
+- Binary classifier to decide if the author of a paper is a given researcher.
+
+<p align="center">
+![](figures/clustering.png)
+</p>
+# A human feedback for disambiguation
+
+- We added a way for authenticated users to give feedback on articles.
+- Wrong classifications corrected improve the full classification. 
+
+
+# Uploading full text: to improve the picture.
+
+- If I am a researcher, to put my paper on repositories I usually need :
+	+ the metadatas
+	+ the consentment of the authors and publishers
+	+ hopefully the fulltext / the tex file / the document.
+  
+- In dissemin, we already know the publisher policy and we have the metadata.
+So we only need the consentment of the authors and the plain document. 
+
+
+# Protocol. 
+
+- SWORD: Basic HTTP, widely used.
+- This protocol is used by HAL (Big french repository)
+- This is widely used
+- But all the difficulty is in the details, and in the range of usecases !
+- There are alternatives that we should also support (for zenodo for example).
+
+# Email  
+
+- A feature to ask the authors for a fulltext.
+- Possible :
+	+ if you are authenticated
+	+ if the authors did not get an email the last 15 days.
+	+ if the policy of the publisher allows that 
+
+# CAS authentication
+
+- the Central Authentication System (CAS) is widely deployed in universities.   
+- Dissemin create an authenticated account for all the researchers.
+- So dissemin used an authentication system 
+
+# Future works and ideas
+
+- possibility for an user to add an entry not founded by dissemin.
+- research function
+- an output API
+- a docker version (it exists a VM version)
+- more API (for Zenodo for example)
+- a meta-dissemin?
+
+And more important 
+
+- to test the system in real production: hopefully in october 2015 at the ENS.
+
+

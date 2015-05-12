@@ -6,21 +6,21 @@
 
 # The main idea 
 
-- This is institution centered : to help the institutions and their researchers to elaborate an open access policy.
+- This is institution-centric: to help the institutions and their researchers to elaborate an open access policy.
 - Input: 
 	* list of departments
 	* list of researchers 
 - Output:
-	* list of annotated publications : availability, publishing policy ... 
+	* list of annotated publications: availability, publishing policy ... 
 
 # Harvesting: the sources
 - Primary (specific APIs):
 	* CrossRef.org 
 	* Bielefeld Academic Search 
 	* SHERPA/RoMEO 
-	* Cores
+	* CORE
 
-- And from some repositories via OAI-PMH : 
+- And from some repositories via OAI-PMH:
 	* arXiv
 	* HAL
 	* PubMed Central
@@ -50,17 +50,17 @@
 
 - If I am a researcher, to put my paper on repositories I usually need :
 	+ the metadatas
-	+ the consentment of the authors and publishers
+	+ the consent of the authors and publisher
 	+ hopefully the fulltext / the tex file / the document.
   
-- In dissemin, we already know the publisher policy and we have the metadatas.
-So we only need the consentment of the authors and the plain document. 
+- In dissemin, we already know the publisher policy and we have the metadata.
+So we only need the consent of the authors and the plain document. 
 
 
 # Protocol. 
 
 - SWORD: Basic HTTP, widely used.
-- This protocol is used by HAL (Big french repository).
+- This protocol is used by HAL (large french repository).
 - This is widely used,
 - But all the difficulty is in the details, and in the range of usecases!
 - There are alternatives that we should also support (zenodo for example).
@@ -85,8 +85,8 @@ So we only need the consentment of the authors and the plain document.
 - possibility for an user to add an entry not found by dissemin.
 - research function
 - an output API
-- a docker version (it exists a VM version)
-- more API (for Zenodo for example)
+- a docker version (there is a VM version)
+- more APIs (for Zenodo for example)
 - a strong SWORD implementation
 - a meta-dissemin?
 

@@ -50,6 +50,8 @@ Statuts
 Revue de presse
 ---------------
 
+-   [Dissemin](https://openarchiv.hypotheses.org/3009), 26 octobre 2015,
+    [Réseau archives ouvertes Toulouse](https://openarchiv.hypotheses.org/)
 -   [Lancement de la plateforme
     Dissemin](https://explore.univ-psl.fr/fr/actualit%C3%A9s/lancement-de-la-plateforme-dissemin),
     26 octobre 2015, [PSL Explore](https://explore.univ-psl.fr/fr)

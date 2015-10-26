@@ -50,6 +50,8 @@ Statutes (in French)
 Press review
 ------------
 
+-   [Dissemin](https://openarchiv.hypotheses.org/3009) (French), October 26, 2015,
+    [Réseau archives ouvertes Toulouse](https://openarchiv.hypotheses.org/)
 -   [Lancement de la plateforme
     Dissemin](https://explore.univ-psl.fr/fr/actualit%C3%A9s/lancement-de-la-plateforme-dissemin)
     (French), October 26, 2015, [PSL

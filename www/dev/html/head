@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dev - Dissemin</title>
+        <meta charset="utf-8" />
+        <style>
+            #main {
+                max-width: 800px;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #444;
+		border-top: none;
+		background-color: white;
+            }
+
+	    #wireframe {
+		background-color: #393939;
+		margin: auto 0px;
+		text-align:center;
+		height: 116px;
+	    }
+
+	    #header {
+		background-color: #833341;
+		padding: 1px;
+		text-align: center;
+		color: white;
+	    }
+
+            body {
+		margin: 0px;
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+	<div id="wireframe">
+		<img src="img/wireframe.png" alt="Dissemin" />
+	</div>
+	<div id="header">
+		<h1>Development home</h1>
+	</div>
+    <div id="main">

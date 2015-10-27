@@ -22,7 +22,7 @@ Getting help
 -   \#openaccess IRC channel on irc.ulminfo.fr
 -   via the [GitHub issues](https://github.com/wetneb/dissemin/issues)
 
-Useful things you can do without diving into our code {\#\#peripheral}
+Useful things you can do without diving into our code <a id="peripheral"></a>
 ----------------------------------------------------------------------
 
 -   **Required skills: XML, social engineering.** Create an OAI-PMH

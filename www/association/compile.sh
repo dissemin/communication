@@ -1,10 +1,18 @@
 #!/bin/bash
 
-mkdir -p _build
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+cd "$DIR"
 
 for lang in fr en; do
-    echo "Compiling in $lang"
-    python -m markdown  -x markdown.extensions.toc index.$lang.md | cat html/$lang/head - html/$lang/foot > _build/index.$lang.html
-done;
+    IN="index.${lang}.md"
+    OUT="_build/index.${lang}.html"
+    HEAD="html/$lang/head"
+    FOOT="html/$lang/foot"
+    ../compile.sh "$IN" "$OUT" "$HEAD" "$FOOT" || {
+      echo "error"
+      # TODO: do this when we are sure about how the hook behaves
+      # exit 1;
+    }
+done
 
 

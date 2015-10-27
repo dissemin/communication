@@ -6,7 +6,7 @@ Humanities) is a French nonprofit association promoting the open access
 to academic publications. It is in charge of the
 [Dissemin](http://dissem.in) project.
 
-Presentations
+Presentations <a id="presentations"></a>
 -------------
 
 Dissemin was presented at:
@@ -28,18 +28,20 @@ Dissemin was presented at:
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 april 2015)
 
-Donate {#dons}
+Donate <a id="donate"></a>
 ------
 
 Our association welcomes donations :
 
 -   By bank transfer: contact us (hello@dissem.in) for our IBAN and
     SWIFT identifiers.
--   By credit or debit card, via PayPlug, our service provider:
-    [Donate](https://www.payplug.com/p/I80h)
--   By Bitcoin: \<<bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1>\>
+-   By credit or debit card, through our service provider PayPlug:
+    <script type="text/javascript" src="https://www.payplug.com/static/button/scripts/payplug.js"></script>
+    [Donate](https://www.payplug.com/p/I8fN)
+-   Using Bitcoin:
+    &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
-Statutes (in French)
+Statutes (in French) <a id="statutes"></a>
 --------------------
 
 -   [The association's statutes](files/statuts.pdf)
@@ -47,7 +49,7 @@ Statutes (in French)
     assembly](files/pv-ag-constitutive.pdf)
 -   [Announcement in the "Journal Officiel"](files/extrait-jo.pdf)
 
-Press review
+Press review <a id="press"></a>
 ------------
 
 -   [Dissemin](https://openarchiv.hypotheses.org/3009) (French), October 26, 2015,

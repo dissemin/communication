@@ -6,7 +6,7 @@ Humanités) est une association à but non lucratif qui promeut l'accès
 libre aux publications académiques. Elle est responsable du projet
 [Dissemin](http://dissem.in).
 
-Présentations {#presentations}
+Présentations <a id="presentations"></a>
 -------------
 
 Dissemin a été présenté à plusieurs occasions:
@@ -27,7 +27,7 @@ Dissemin a été présenté à plusieurs occasions:
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 avril 2015)
 
-Dons
+Dons <a id="dons"></a>
 ----
 
 L'association accepte des dons :
@@ -35,10 +35,12 @@ L'association accepte des dons :
 -   Par virement bancaire : nous contacter (hello@dissem.in) pour
     obtenir nos coordonnées bancaires.
 -   Par carte bancaire via notre prestataire PayPlug:
+    <script type="text/javascript" src="https://www.payplug.com/static/button/scripts/payplug.js"></script>
     [Faire un don](https://www.payplug.com/p/I8fN)
--   Par Bitcoin: \<<bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1>\>
+-   Par Bitcoin:
+    &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
-Statuts
+Statuts <a id="statuts"></a>
 -------
 
 -   [Statuts de l'association](files/statuts.pdf)
@@ -47,7 +49,7 @@ Statuts
 -   [Extrait du Journal Officiel publiant la déclaration de
     l'association](files/extrait-jo.pdf)
 
-Revue de presse
+Revue de presse <a id="revue"></a>
 ---------------
 
 -   [Dissemin](https://openarchiv.hypotheses.org/3009), 26 octobre 2015,

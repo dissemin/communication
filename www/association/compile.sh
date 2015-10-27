@@ -3,6 +3,7 @@
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 cd "$DIR"
 
+exit 1
 for lang in fr en; do
     IN="index.${lang}.md"
     OUT="_build/index.${lang}.html"

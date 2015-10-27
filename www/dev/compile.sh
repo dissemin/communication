@@ -1,8 +1,9 @@
 #!/bin/bash
 
-mkdir -p _build
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+cd "$DIR"
 
-python -m markdown  -x markdown.extensions.toc index.md | cat html/head - html/foot > _build/index.html
+../compile.sh index.md _build/index.html html/head html/foot
 cp -r img _build/
 
 

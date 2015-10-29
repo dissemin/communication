@@ -31,7 +31,7 @@ Dissemin was presented at:
 Donate <a id="donate"></a><a id="dons"></a>
 ------
 
-Our association welcomes donations :
+Our association welcomes donations:
 
 -   By bank transfer: contact us (hello@dissem.in) for our IBAN and
     SWIFT identifiers.

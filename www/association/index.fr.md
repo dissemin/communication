@@ -27,7 +27,7 @@ Dissemin a été présenté à plusieurs occasions:
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 avril 2015)
 
-Dons <a id="dons"></a>
+Dons <a id="donate"></a><a id="dons"></a>
 ----
 
 L'association accepte des dons :
@@ -40,7 +40,7 @@ L'association accepte des dons :
 -   Par Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
-Statuts <a id="statuts"></a>
+Statuts <a id="statutes"></a><a id="statuts"></a>
 -------
 
 -   [Statuts de l'association](files/statuts.pdf)
@@ -49,7 +49,7 @@ Statuts <a id="statuts"></a>
 -   [Extrait du Journal Officiel publiant la déclaration de
     l'association](files/extrait-jo.pdf)
 
-Revue de presse <a id="revue"></a>
+Revue de presse <a id="press"></a><a id="revue"></a>
 ---------------
 
 -   [Dissemin](https://openarchiv.hypotheses.org/3009), 26 octobre 2015,

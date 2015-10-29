@@ -52,6 +52,7 @@ Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
 Press review <a id="press"></a><a id="revue"></a>
 ------------
 
+-   [Dissemin](http://lalist.inist.fr/?p=16052), October 27, 2015, [LaLIST](http://lalist.inist.fr/)
 -   [Dissemin](https://openarchiv.hypotheses.org/3009) (French), October 26, 2015,
     [Réseau archives ouvertes Toulouse](https://openarchiv.hypotheses.org/)
 -   [Lancement de la plateforme

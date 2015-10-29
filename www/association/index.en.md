@@ -28,10 +28,10 @@ Dissemin was presented at:
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 april 2015)
 
-Donate <a id="donate"></a>
+Donate <a id="donate"></a><a id="dons"></a>
 ------
 
-Our association welcomes donations :
+Our association welcomes donations:
 
 -   By bank transfer: contact us (hello@dissem.in) for our IBAN and
     SWIFT identifiers.
@@ -41,7 +41,7 @@ Our association welcomes donations :
 -   Using Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
-Statutes (in French) <a id="statutes"></a>
+Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
 --------------------
 
 -   [The association's statutes](files/statuts.pdf)
@@ -49,7 +49,7 @@ Statutes (in French) <a id="statutes"></a>
     assembly](files/pv-ag-constitutive.pdf)
 -   [Announcement in the "Journal Officiel"](files/extrait-jo.pdf)
 
-Press review <a id="press"></a>
+Press review <a id="press"></a><a id="revue"></a>
 ------------
 
 -   [Dissemin](http://lalist.inist.fr/?p=16052), October 27, 2015, [LaLIST](http://lalist.inist.fr/)

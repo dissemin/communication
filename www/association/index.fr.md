@@ -9,7 +9,7 @@ libre aux publications académiques. Elle est responsable du projet
 Présentations <a id="presentations"></a>
 -------------
 
-Dissemin a été présenté à plusieurs occasions:
+Dissemin a été présenté à plusieurs occasions :
 
 -   [Open Access Week à l'École Normale
     Supérieure](http://www.ens.fr/actualites/agenda/archives/article/conference-international-open?lang=fr)
@@ -27,12 +27,12 @@ Dissemin a été présenté à plusieurs occasions:
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 avril 2015)
 
-Dons <a id="dons"></a>
+Dons <a id="donate"></a><a id="dons"></a>
 ----
 
-L'association accepte des dons :
+L'association accepte des dons :
 
--   Par virement bancaire : nous contacter (hello@dissem.in) pour
+-   Par virement bancaire : nous contacter (hello@dissem.in) pour
     obtenir nos coordonnées bancaires.
 -   Par carte bancaire via notre prestataire PayPlug:
     <script type="text/javascript" src="https://www.payplug.com/static/button/scripts/payplug.js"></script>
@@ -40,7 +40,7 @@ L'association accepte des dons :
 -   Par Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
-Statuts <a id="statuts"></a>
+Statuts <a id="statutes"></a><a id="statuts"></a>
 -------
 
 -   [Statuts de l'association](files/statuts.pdf)
@@ -49,7 +49,7 @@ Statuts <a id="statuts"></a>
 -   [Extrait du Journal Officiel publiant la déclaration de
     l'association](files/extrait-jo.pdf)
 
-Revue de presse <a id="revue"></a>
+Revue de presse <a id="press"></a><a id="revue"></a>
 ---------------
 
 -   [Dissemin](http://lalist.inist.fr/?p=16052), 27 octobre 2015, [LaLIST](http://lalist.inist.fr/)

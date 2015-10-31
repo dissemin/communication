@@ -37,6 +37,7 @@ L'association accepte des dons :
 
 -   Par virement bancaire : nous contacter (hello@dissem.in) pour
     obtenir nos coordonnées bancaires.
+-   Par chèque, addressé à "Association CAPSH" et envoyé à Antonin Delpeuch, 45 rue d'Ulm, 75005 Paris, France.
 -   Par carte bancaire via notre prestataire PayPlug:
     <script type="text/javascript" src="https://www.payplug.com/static/button/scripts/payplug.js"></script>
     [Faire un don](https://www.payplug.com/p/I8fN)

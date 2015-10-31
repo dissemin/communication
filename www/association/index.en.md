@@ -38,6 +38,7 @@ Our association welcomes donations:
 
 -   By bank transfer: contact us (hello@dissem.in) for our IBAN and
     SWIFT identifiers.
+-   By cheque, addressed to "Association CAPSH" and sent to Antonin Delpeuch, 45 rue d'Ulm, 75005 Paris, France.
 -   By credit or debit card, through our service provider PayPlug:
     <script type="text/javascript" src="https://www.payplug.com/static/button/scripts/payplug.js"></script>
     [Donate](https://www.payplug.com/p/I8fN)

@@ -28,7 +28,10 @@ Dissemin was presented at:
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 april 2015)
 
-Donate <a id="donate"></a><a id="dons"></a>
+<div id="dons" markdown="1" class="highlighter">
+<div id="donate" markdown="1" class="highlighter">
+
+Donate
 ------
 
 Our association welcomes donations:
@@ -40,6 +43,9 @@ Our association welcomes donations:
     [Donate](https://www.payplug.com/p/I8fN)
 -   Using Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
+
+</div>
+</div>
 
 Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
 --------------------

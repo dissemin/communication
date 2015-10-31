@@ -27,7 +27,10 @@ Dissemin a été présenté à plusieurs occasions :
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 avril 2015)
 
-Dons <a id="donate"></a><a id="dons"></a>
+<div id="dons" markdown="1" class="highlighter">
+<div id="donate" markdown="1" class="highlighter">
+
+Dons
 ----
 
 L'association accepte des dons :
@@ -39,6 +42,9 @@ L'association accepte des dons :
     [Faire un don](https://www.payplug.com/p/I8fN)
 -   Par Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
+
+</div>
+</div>
 
 Statuts <a id="statutes"></a><a id="statuts"></a>
 -------

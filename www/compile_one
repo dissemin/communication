@@ -30,7 +30,7 @@ function checkhtml () {
 mkdir -p "$DIR"
 
 echo "Compiling $OUT"
-python -m markdown  -x markdown.extensions.toc "$IN" |
+python -m markdown  -x markdown.extensions.toc -x markdown.extensions.extra "$IN" |
   cat "$HEAD" - "$FOOT" > "$OUT"
 checkhtml "$OUT" || {
   echo "Error when validating $OUT" ;

@@ -5,6 +5,8 @@ set -e
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 cd "$DIR"
 
+cp -r css _build/
+
 for lang in fr en; do
     IN="index.${lang}.md"
     OUT="_build/index.html.${lang}"

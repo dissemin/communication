@@ -44,6 +44,10 @@ L'association accepte des dons :
 -   Par Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
+Pour l'instant, vos dons servent principalement à payer la location des deux
+serveurs qui font fonctionner Dissemin (environ 500 EUR/mois). Merci beaucoup
+pour votre soutien !
+
 </div>
 </div>
 

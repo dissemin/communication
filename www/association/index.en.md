@@ -45,6 +45,10 @@ Our association welcomes donations:
 -   Using Bitcoin:
     &lt;<a href="bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1">bitcoin:18C7MmrmD52N3qyzw6RPfpoHk4KVAp6Vi1</a>&gt;
 
+As of this writing, donations are mainly used to rent the two servers that
+power Dissemin (amounting to around 500 EUR/year). Thanks a lot for supporting
+us!
+
 </div>
 </div>
 

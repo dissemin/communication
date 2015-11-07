@@ -63,6 +63,7 @@ Statuts <a id="statutes"></a><a id="statuts"></a>
 Revue de presse <a id="press"></a><a id="revue"></a>
 ---------------
 
+-   [Journée d’hommage au militant de l’Internet Aaron Swartz](http://rue89.nouvelobs.com/2015/11/07/journee-dhommage-militant-linternet-aaron-swartz-261998), 7 novembre 2015, [Rue89](http://rue89.nouvelobs.com/)
 -   [Dissemin](http://lalist.inist.fr/?p=16052), 27 octobre 2015, [LaLIST](http://lalist.inist.fr/)
 -   [Dissemin](https://openarchiv.hypotheses.org/3009), 26 octobre 2015,
     [Réseau archives ouvertes Toulouse](https://openarchiv.hypotheses.org/)

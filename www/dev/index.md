@@ -35,6 +35,7 @@ Useful things you can do without diving into our code <a id="peripheral"></a>
     -   [SSRN](http://www.ssrn.com/en/)
     -   [LingBuzz](http://ling.auf.net/lingbuzz)
     -   [Semantics Archive](http://semanticsarchive.net/)
+    -   [ECCC](http://eccc.hpi-web.de/)
     -   Many others, see the [Registry of Open Access
         Repositories](http://roar.eprints.org/) and [this ranking of
         repositories](http://repositories.webometrics.info/en/world)

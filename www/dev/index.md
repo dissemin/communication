@@ -34,6 +34,7 @@ Useful things you can do without diving into our code <a id="peripheral"></a>
     -   [eprint.iacr.org](http://eprint.iacr.org/)
     -   [SSRN](http://www.ssrn.com/en/)
     -   [LingBuzz](http://ling.auf.net/lingbuzz)
+    -   [Semantics Archive](http://semanticsarchive.net/)
     -   Many others, see the [Registry of Open Access
         Repositories](http://roar.eprints.org/) and [this ranking of
         repositories](http://repositories.webometrics.info/en/world)

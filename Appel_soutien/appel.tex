@@ -1,0 +1,116 @@
+\documentclass[a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[official]{eurosym}
+\usepackage{fullpage}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage{hyperref}
+
+\title{Appel à soutien de l'association CAPSH\footnote{Comité pour l'Accessibilité aux Publications en Sciences et Humanités}}
+
+\begin{document}
+
+\maketitle
+
+\section{Contexte}
+
+L'association CAPSH\footnote{\url{http://association.dissem.in}} développe
+et héberge la plateforme Dissemin\footnote{\url{http://public.dissem.in}}, qui permet d'une part aux chercheurs
+de s'assurer que leurs publications sont disponibles dans des dépôts ouverts, et d'autre part aux
+universités de mettre en place une politique encourageant ces dépôts.
+
+Le développement de la plateforme a débuté en septembre 2014 et l'association CAPSH a été fondée un an plus tard. Le développement et la gestion de l'association sont assurés par des bénévoles. Les frais d'hébergement de Dissemin sont financés sur leurs fonds propres.
+Les besoins matériels sont actuellement limités à deux serveurs dédiés et des noms de domaine (pour un montant total de 500\euro{}
+par an).
+
+Les métadonnées utilisées par Dissemin sont obtenues depuis des sources gratuites : les API de recherche de CrossRef et RoMEO, l'API publique d'ORCID, l'aggrégateur d'archives ouvertes BASE ansi que les traducteurs Zotero. Dissemin permet actuellement le dépôt vers Zenodo et d'autres interfaces sont envisagées. Nous sommes actuellement en négociations avec le CCSD pour proposer un dépôt dans HAL.
+% antoine: dire qu'on est en négociations pour un dépôt dans HAL ? % antonin: ouais
+
+\section{Perspectives}
+
+\subsection{Ressources humaines}
+
+La situation actuelle est assez précaire, car nous sommes tous dans des cursus ou des postes sans rapport direct avec le projet. Nous aurions besoin d'aide sur plusieurs plans :
+\begin{itemize}
+   \item Relations publiques : nous sommes maintenant en contact avec un certain nombre de partenaires ou d'utilisateurs, et répondre à leurs questions prend du temps.% Nous avons aussi des difficultés à communiquer efficacement autour du projet. % Antoine: je comprends pas ce que ça veut dire
+% Antonin: oui tu as raison c'est du vent
+   \item Gestion courante de l'association : comptabilité, recherche de financements, conseil juridique en cas de besoin ;
+   \item Développement informatique : développement d'adaptateurs pour intégrer de nouveaux dépôts, implémentation de fonctionnalités demandées par les utilisateurs, maintenance informatique et administration des serveurs ;
+\end{itemize}
+
+Nous souhaiterions donc impliquer
+plus de personnes dans le projet. Nous pensons par exemple à des personnes employées par nos
+partenaires, dont une petite partie du temps serait consacré au projet en parallèle
+de leurs missions habituelles : en particulier, 
+ces personnes pourraient participer à la gestion courante
+du projet et aux orientations stratégiques.
+
+Il serait aussi utile d'employer un développeur pour étoffer la plateforme.
+Les membres actuels de l'équipe ne sont pas disponibles à l'embauche, il s'agirait donc
+d'un·e nouveau·elle participant·e. Une solution peu coûteuse
+serait de proposer un stage rémunéré pendant quelques mois à un·e étudiant·e
+dans un cursus approprié. Un CDD plus long (recruté soit par l'association,
+soit par un de ses partenaires) permetterait un développement plus ambitieux.
+Il est aussi envisageable de faire appel à un prestataire de service (comme Cottage
+Labs\footnote{\url{http://cottagelabs.com/}}).
+
+\subsection{Financement}
+
+Même si le projet fonctionne aujourd'hui avec un budget très réduit, les bénévoles désireraient ne pas prendre en charge eux-mêmes les frais de fonctionnement d'une association à laquelle ils dédient déjà beaucoup de leur temps. Des demandes de financement ont été soumises à l'ENS (a priori sans succès),
+% antoine: a priori sans succès : ?
+% antonin: bah ils ont pas répondu (Marcerou-Ramel peut pas, Mézard n'a rien dit)
+à PSL (réponse attendue le 23 décembre 2015). Nous comptons aussi nous adresser au consortium Couperin, à la Fondation de l'ENS, à l'A-Ulm (association des anciens élèves) et à la coalition SPARC (Scholarly Publishing and Academic Resources Coalition).
+
+\subsection{Infrastructure}
+
+Nous n'avons pas de besoins matériels urgents, les deux serveurs actuels devraient être suffisants dans les mois qui viennent, et il suffit de prendre en charge leurs frais de location. Cependant, d'autres machines peuvent toujours être utiles, pour isoler ou dupliquer des fonctionnalités (et ainsi réduire les risques de panne et de perte de données).
+
+\subsection{Sources de données}
+
+Nous sommes préoccupés par la pérennité de notre accès à CrossRef. Nous utilisons actuellement leur interface de recherche publique, gratuite, qui convient pour nos besoins.
+Suite à une prise de contact de notre part, CrossRef nous a confirmé que nous pouvions continuer à l'utiliser
+tant que le volume des requêtes restait raisonnable. 
+Cependant, si Dissemin venait à être plus utilisé, il serrait possible que CrossRef revienne sur cet avis. Il nous faudrait alors utiliser un accès
+payant ("CrossRef Metadata Source Enhanced") pour 2700 EUR/an.
+
+ORCID dispose aussi d'une interface payante qui nous serait utile (même si l'accès à l'API publique n'est pas compromis) : cela permettrait à nos utilisateurs d'ajouter des publications à leur profil ORCID
+directement depuis Dissemin. Actuellement, quand un profil ORCID est vide, nous recommandons à l'utilisateur de le remplir en utilisant CrossRef Metadata Search, un service externe, ce qui complique
+l'utilisation du service. L'adhésion à ORCID en tant qu'organisme à but non lucratif coute 3600 EUR/an.
+
+Les autres sources de données gratuites ne semblent pas compromises.
+
+\section{Budget prévisionnel pour l'année 2016}
+
+\subsection{Budget incompressible}
+
+\begin{itemize}
+    \item Frais de noms de domaine (dissem.in, dissemin.net, peut-être un autre) : 40 EUR/an
+    \item Deux serveurs dédiés : 2x240 EUR/an % antoine : mettre à jour maintenant qu'on a deux serveurs
+    \item Frais bancaires : 10 EUR/an
+    \item Frais de fonctionnement et frais divers : 100 EUR/an
+\end{itemize}
+
+\paragraph{Somme :} 630 EUR
+
+\subsection{Acquisitions envisagées}
+    
+\begin{itemize}
+    \item Serveur frontal de cache statique : 240 EUR/an
+    \item Serveur secondaire de secours et de sauvegardes : 240 EUR/an
+    \item Remboursement de frais de mission pour réunions de présentation du projet (environ 3 missions en France sur une journée) : 450 EUR
+    \item Abonnement à CrossRef "CMS Enhanced" : 2700 EUR/an
+    \item Adhésion à ORCID (en tant qu'organisation sans but lucratif) : 3600 EUR/an
+\end{itemize}
+
+\paragraph{Somme :} 7230 EUR
+
+\paragraph{Total (frais incompressibles et acquisitions envisagées):} 7860 EUR
+% en DERNIER lieu, revérifier les sommes et retirer ce commentaire
+
+\end{document}
+

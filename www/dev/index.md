@@ -58,5 +58,5 @@ Useful things you can do without diving into our code <a id="peripheral"></a>
     the project below. Repository: [doai](https://github.com/dissemin/doai).
 -   **Required skills: Python.** Create a Wikipedia bot that adds links to open
     repositories. See [this project page on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library/OABOT).
-.
+
 

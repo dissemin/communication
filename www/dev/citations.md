@@ -1,3 +1,6 @@
+Availability of citations
+=========================
+
 Dissemin assesses the availability of the publications authored by a given researcher.
 What if we could assess the availability of the publications cited by a given paper?
 [Open access publishers could use it to encourage authors cited in their journals to

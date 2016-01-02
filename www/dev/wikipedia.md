@@ -1,3 +1,6 @@
+OABOT
+=====
+
 The OABOT project has been set up to create a
 Wikipedia bot that adds links to open repositories on references to academic papers.
 [The official discussion and coordination page is on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library/OABOT).

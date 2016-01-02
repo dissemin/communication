@@ -1,3 +1,6 @@
+Dissemin API
+============
+
 Dissemin provides an API to query the availability of arbitrary papers.
 For now it is a BETA VERSION.
 

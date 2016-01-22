@@ -40,11 +40,10 @@ There are many reference extraction systems out there:
 
  * [pdfextract](https://github.com/CrossRef/pdfextract)
  * [grobid](https://github.com/kermitt2/grobid)
- * [cb2bib](http://www.molspaces.com/cb2bib/)
  * [cermine](http://cermine.ceon.pl/index.html)
 
-We need to pick one. They represent the citations in various formats, have different
-speeds and accuracies, and so on.
+[Phyks](https://phyks.me) has [run them on a collection of papers](https://known.phyks.me/2016/comparison-of-tools-to-fetch-references-for-scientific-papers)
+and it looks like Grobid is the best one for citations.
 
 Availability assessment
 -----------------------

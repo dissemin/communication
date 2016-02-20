@@ -46,8 +46,4 @@ Useful things you can do without diving into our code <a id="peripheral"></a>
     for ACM yet, see e.g.
     [this article](http://dl.acm.org/citation.cfm?doid=2775051.2677003).
 
--   Alternate DOI proxy: Let's build an alternate DOI proxy, that
-    redirects users to open repositories instead of paywalls. Something like
-    [doi2oa](https://github.com/jezcope/doi2oa), but at a larger scale
-    (with all the sources Dissemin has access to).
 

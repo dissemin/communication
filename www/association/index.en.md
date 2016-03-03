@@ -63,6 +63,9 @@ Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
 Press review <a id="press"></a><a id="revue"></a>
 ------------
 
+-   [Co-opting “Official” Channels through Infrastructures for
+    Openness](http://scholarlykitchen.sspnet.org/2016/03/03/coopting-official-channels/),
+    March 3, 2016.
 -   Dissemin [is awarded the Society prize](https://twitter.com/OSS_Paris/status/667034331039277056) of the [Open Source Summit
     Paris](http://www.opensourcesummit.paris/?lg=en),
     November 18, 2015.

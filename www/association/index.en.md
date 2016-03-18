@@ -66,6 +66,11 @@ Press review <a id="press"></a><a id="revue"></a>
 -   [Co-opting “Official” Channels through Infrastructures for
     Openness](http://scholarlykitchen.sspnet.org/2016/03/03/coopting-official-channels/),
     March 3, 2016.
+-   [We need to take a stand against more traditional
+    publishers](http://openscholarchampions.eu/champions/standagainsttraditionalpublishers/),
+    an interview with [Antonin Delpeuch](http://antonin.delpeuch.eu/) from
+    Dissemin, who was designated as an [open access
+    champion](http://openscholarchampions.eu/), January 7, 2016.
 -   Dissemin [is awarded the Society prize](https://twitter.com/OSS_Paris/status/667034331039277056) of the [Open Source Summit
     Paris](http://www.opensourcesummit.paris/?lg=en),
     November 18, 2015.

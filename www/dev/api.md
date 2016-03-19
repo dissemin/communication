@@ -105,7 +105,7 @@ Understanding the results
 
 Most fields are self-explanatory, here is a quick description of the other ones:
 
- * ***classification*** is the code for the category of the paper: "OA" (available from the publisher), "OK" (available from the author), "COULDBE" (unavailable but could be shared), "UNK" (unavailable; unknown/unclear sharing policy), "CLOSED" (unavailable, restrictive sharing policy).
+ * ***classification*** is the code for the self-archiving policy of the publisher "OA" (available from the publisher), "OK" (some version can be shared), "UNK" (unknown/unclear sharing policy), "NOK" (restrictive sharing policy).
  * ***pdf\_url*** is the URL where dissemin thinks the full text can be accessed for free. This is rarely a direct link to an actual PDF file. It is set to `null` if we could not find a free source for this paper.
  * ***publications*** gives a list of the places where this paper has been published (so: journals, conferences), and the associated bibliographical metadata. If the publisher has been found in RoMEO, it also indicates the summary of its policy, using the codes drawn from [the RoMEO API](http://www.sherpa.ac.uk/romeo/api.html). This list will remain empty if no DOI is provided.
  * ***records*** gives a list of the places where the full text has been made available (so: repositories, homepages or social networks). Sometimes, these repositories only contain a bibliographical record and not the full text. The ***pdf_url*** field of each record indicates our assessment of the availability of that record.

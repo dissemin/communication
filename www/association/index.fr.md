@@ -63,6 +63,9 @@ Statuts <a id="statutes"></a><a id="statuts"></a>
 Revue de presse <a id="press"></a><a id="revue"></a>
 ---------------
 
+-   Dissemin mentionné dans la [feuille de route du CCSD pour
+    2016-2020](http://blog.ccsd.cnrs.fr/2016/06/feuille-de-route-du-ccsd-2016-2020/),
+    20 juin 2016.
 -   [Co-opting “Official” Channels through Infrastructures for
     Openness](http://scholarlykitchen.sspnet.org/2016/03/03/coopting-official-channels/),
     3 mars 2016 (en anglais)

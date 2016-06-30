@@ -11,6 +11,9 @@ Présentations <a id="presentations"></a>
 
 Dissemin a été présenté à plusieurs occasions :
 
+-   Making Open the Default, SPARC Europe workshop à LIBER 2016,
+    Helsinki, 29 June 2016
+    [[slides]](files/helsinki.pdf)
 -   [Open Access Week à l'École Normale
     Supérieure](http://www.ens.fr/actualites/agenda/archives/article/conference-international-open?lang=fr)
     (Paris, 22 octobre 2015) [[slides]](files/slides-ens-2015.pdf)

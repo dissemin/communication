@@ -66,6 +66,10 @@ Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
 Press review <a id="press"></a><a id="revue"></a>
 ------------
 
+-   Dissemin mentioned in the [roadmap of the CCSD for
+    2016-2020](http://blog.ccsd.cnrs.fr/2016/06/feuille-de-route-du-ccsd-2016-2020/)
+    (French),
+    June 20, 2016.
 -   [Co-opting “Official” Channels through Infrastructures for
     Openness](http://scholarlykitchen.sspnet.org/2016/03/03/coopting-official-channels/),
     March 3, 2016.

@@ -36,7 +36,7 @@ Dissemin was presented at:
 </div>
 
 <div id="dons" markdown="1" class="highlighter">
-<div id="donate" markdown="1" class="highlighter">
+<div id="donate" class="highlighter">
 
 Donate to CAPSH
 ---------------
@@ -60,7 +60,7 @@ us!
 </div>
 
 <div id="statutes" markdown="1" class="highlighter">
-<div id="statuts" markdown="1" class="highlighter">
+<div id="statuts" class="highlighter">
 
 Statutes (in French)
 --------------------
@@ -74,7 +74,7 @@ Statutes (in French)
 </div>
 
 <div id="press" markdown="1" class="highlighter">
-<div id="revue" markdown="1" class="highlighter">
+<div id="revue" class="highlighter">
 
 Press review
 ------------

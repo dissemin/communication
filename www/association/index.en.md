@@ -6,7 +6,9 @@ Humanities) is a French nonprofit association promoting the open access
 to academic publications. It is in charge of the
 [Dissemin](http://dissem.in) project.
 
-Presentations <a id="presentations"></a>
+<div id="presentations" markdown="1" class="highlighter">
+
+Presentations
 -------------
 
 Dissemin was presented at:
@@ -30,6 +32,8 @@ Dissemin was presented at:
     at Couperin (Paris, 8 june 2015)
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 april 2015)
+
+</div>
 
 <div id="dons" markdown="1" class="highlighter">
 <div id="donate" markdown="1" class="highlighter">
@@ -55,7 +59,10 @@ us!
 </div>
 </div>
 
-Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
+<div id="statutes" markdown="1" class="highlighter">
+<div id="statuts" markdown="1" class="highlighter">
+
+Statutes (in French)
 --------------------
 
 -   [The association's statutes](files/statuts.pdf)
@@ -63,7 +70,13 @@ Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
     assembly](files/pv-ag-constitutive.pdf)
 -   [Announcement in the "Journal Officiel"](files/extrait-jo.pdf)
 
-Press review <a id="press"></a><a id="revue"></a>
+</div>
+</div>
+
+<div id="press" markdown="1" class="highlighter">
+<div id="revue" markdown="1" class="highlighter">
+
+Press review
 ------------
 
 -   Dissemin was presented in Marie Farge's chronicle *[Les chercheurs reprennent le contrôle de la
@@ -96,4 +109,7 @@ Press review <a id="press"></a><a id="revue"></a>
     Dissemin](https://explore.univ-psl.fr/fr/actualit%C3%A9s/lancement-de-la-plateforme-dissemin)
     (French), October 26, 2015, [PSL
     Explore](https://explore.univ-psl.fr/fr)
+
+</div>
+</div>
 

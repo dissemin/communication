@@ -6,7 +6,9 @@ Humanités) est une association à but non lucratif qui promeut l'accès
 libre aux publications académiques. Elle est responsable du projet
 [Dissemin](http://dissem.in).
 
-Présentations <a id="presentations"></a>
+<div id="presentations" markdown="1" class="highlighter">
+
+Présentations
 -------------
 
 Dissemin a été présenté à plusieurs occasions :
@@ -29,6 +31,8 @@ Dissemin a été présenté à plusieurs occasions :
     (Paris, 8 juin 2015)
 -   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
     UK, 27 avril 2015)
+
+</div>
 
 <div id="dons" markdown="1" class="highlighter">
 <div id="donate" markdown="1" class="highlighter">
@@ -54,6 +58,9 @@ pour votre soutien !
 </div>
 </div>
 
+<div id="statutes" markdown="1" class="highlighter">
+<div id="statuts" markdown="1" class="highlighter">
+
 Statuts <a id="statutes"></a><a id="statuts"></a>
 -------
 
@@ -62,6 +69,12 @@ Statuts <a id="statutes"></a><a id="statuts"></a>
     constitutive](files/pv-ag-constitutive.pdf)
 -   [Extrait du Journal Officiel publiant la déclaration de
     l'association](files/extrait-jo.pdf)
+
+</div>
+</div>
+
+<div id="press" markdown="1" class="highlighter">
+<div id="revue" markdown="1" class="highlighter">
 
 Revue de presse <a id="press"></a><a id="revue"></a>
 ---------------
@@ -94,3 +107,5 @@ Revue de presse <a id="press"></a><a id="revue"></a>
     Dissemin](https://explore.univ-psl.fr/fr/actualit%C3%A9s/lancement-de-la-plateforme-dissemin),
     26 octobre 2015, [PSL Explore](https://explore.univ-psl.fr/fr)
 
+</div>
+</div>

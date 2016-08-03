@@ -37,8 +37,8 @@ Dissemin a été présenté à plusieurs occasions :
 <div id="dons" markdown="1" class="highlighter">
 <div id="donate" markdown="1" class="highlighter">
 
-Dons
-----
+Faire un don à CAPSH
+--------------------
 
 L'association accepte des dons :
 

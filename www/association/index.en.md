@@ -38,8 +38,8 @@ Dissemin was presented at:
 <div id="dons" markdown="1" class="highlighter">
 <div id="donate" markdown="1" class="highlighter">
 
-Donate
-------
+Donate to CAPSH
+---------------
 
 Our association welcomes donations:
 

@@ -13,6 +13,10 @@ Presentations
 
 Dissemin was presented at:
 
+-   [EuroPython 2016](https://ep2016.europython.eu/en/), Bilbao, July 22, 2016.
+    [[slides]](files/slides-ep2016.pdf)
+    [[slide source]](files/slides-ep2016.md)
+    [[video]](https://www.youtube.com/watch?v=8G3FFp-Hk9Y&feature=youtu.be&t=5672)
 -   Making Open the Default, SPARC Europe workshop at LIBER 2016,
     Helsinki, 29 June 2016
     [[slides]](files/helsinki.pdf)

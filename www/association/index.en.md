@@ -66,6 +66,11 @@ Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
 Press review <a id="press"></a><a id="revue"></a>
 ------------
 
+-   Dissemin was presented in Marie Farge's chronicle *[Les chercheurs reprennent le contrôle de la
+    dissémination de leurs
+    œuvres](http://www.adbs.fr/i2d-n-2-juin-2016-dossier-web-de-donnees-et-creation-de-valeurs-le-champ-des-possibles-156675.htm?)*
+    (in French). In
+    [I2D](http://www.adbs.fr/i2d-information-donnees-documents-147521.htm?RH=1426693578415&RF=1426693578415), Volume 53, number 2, June 30, 2016.
 -   Dissemin mentioned in the [roadmap of the CCSD for
     2016-2020](http://blog.ccsd.cnrs.fr/2016/06/feuille-de-route-du-ccsd-2016-2020/)
     (French),

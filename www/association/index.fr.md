@@ -66,6 +66,11 @@ Statuts <a id="statutes"></a><a id="statuts"></a>
 Revue de presse <a id="press"></a><a id="revue"></a>
 ---------------
 
+-   Dissemin a été présenté dans la chronique de Marie Farge *[Les chercheurs reprennent le contrôle de la
+    dissémination de leurs
+    œuvres](http://www.adbs.fr/i2d-n-2-juin-2016-dossier-web-de-donnees-et-creation-de-valeurs-le-champ-des-possibles-156675.htm?)*.
+    In
+    [I2D](http://www.adbs.fr/i2d-information-donnees-documents-147521.htm?RH=1426693578415&RF=1426693578415), Volume 53, numéro 2, 30 juin 2016.
 -   Dissemin mentionné dans la [feuille de route du CCSD pour
     2016-2020](http://blog.ccsd.cnrs.fr/2016/06/feuille-de-route-du-ccsd-2016-2020/),
     20 juin 2016.

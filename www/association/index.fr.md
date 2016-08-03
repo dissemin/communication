@@ -61,8 +61,8 @@ pour votre soutien !
 <div id="statutes" markdown="1" class="highlighter">
 <div id="statuts" class="highlighter">
 
-Statuts <a id="statutes"></a><a id="statuts"></a>
--------
+Statuts de CAPSH
+----------------
 
 -   [Statuts de l'association](files/statuts.pdf)
 -   [Procès-verbal de l'assemblée générale
@@ -76,7 +76,7 @@ Statuts <a id="statutes"></a><a id="statuts"></a>
 <div id="press" markdown="1" class="highlighter">
 <div id="revue" class="highlighter">
 
-Revue de presse <a id="press"></a><a id="revue"></a>
+Revue de presse
 ---------------
 
 -   Dissemin a été présenté dans la chronique de Marie Farge *[Les chercheurs reprennent le contrôle de la

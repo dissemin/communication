@@ -6,36 +6,64 @@ Humanities) is a French nonprofit association promoting the open access
 to academic publications. It is in charge of the
 [Dissemin](http://dissem.in) project.
 
-Presentations <a id="presentations"></a>
+<div id="presentations" markdown="1" class="highlighter">
+
+Presentations
 -------------
 
 Dissemin was presented at:
 
+-   [EuroPython 2016](https://ep2016.europython.eu/en/),
+    Bilbao, July 22, 2016.
+    [[slides]](files/slides-ep2016.pdf)
+    [[slide source]](files/slides-ep2016.md)
+    [[video]](https://www.youtube.com/watch?v=8G3FFp-Hk9Y&feature=youtu.be&t=5672)
 -   Making Open the Default, SPARC Europe workshop at LIBER 2016,
-    Helsinki, 29 June 2016
+    Helsinki, June 29, 2016
     [[slides]](files/helsinki.pdf)
+-   [Annual Conference on Open Repositories](http://or2016.net/), 
+    Dublin, June 14, 2016.
+    [[slides]](http://openscience.ens.fr/MARIE_FARGE_ON_OPEN_ACCESS/2016_CONFERENCES_ON_OPEN_ACCESS/2016_06_14_OPEN_REPOSITORIES_CONFERENCE_DUBLIN/)
+-   [Open Science Conference
+    2016](http://www.science20-conference.eu/science-2-0-conference-2016-save-the-date/),
+    Köln, May 3, 2016.
+    [[slides]](http://openscience.ens.fr/MARIE_FARGE_ON_OPEN_ACCESS/2016_CONFERENCES_ON_OPEN_ACCESS/2016_05_03_OPEN_SCIENCE_CONFERENCE_COLOGNE/)
+-   [Open Access
+    Workshop](http://wavelets.ens.fr/BOYCOTT_ELSEVIER/MARIE_FARGE/2012-2016_CONFERENCES_ON_OPEN_ACCESS/2016_01_25_OPEN_ACCESS_INNSBRUCK_UNIVERSITY/2016_01_25_Conference_Innsbruck_University_Program.pdf),
+    Innsbruck, January 25, 2016.
+    [[slides]](http://openscience.ens.fr/MARIE_FARGE_ON_OPEN_ACCESS/2016_CONFERENCES_ON_OPEN_ACCESS/2016_01_25_OPEN_ACCESS_INNSBRUCK_UNIVERSITY/)
+-   [Paris Open Source Summit](http://www.opensourcesummit.paris/) 2015,
+    Paris, November 18, 2015.
+    [[slides]](http://openscience.ens.fr/MARIE_FARGE_ON_OPEN_ACCESS/2015_CONFERENCES_ON_OPEN_ACCESS/2015_11_18_OPEN_SOURCE_SUMMIT_PARIS/)
 -   [Open Access Week at École Normale
-    Supérieure](http://www.ens.fr/actualites/agenda/archives/article/conference-international-open?lang=fr)
-    (Paris, 22 october 2015) [[slides]](files/slides-ens-2015.pdf)
+    Supérieure](http://www.ens.fr/actualites/agenda/archives/article/conference-international-open?lang=fr),
+    Paris, October 22, 2015.
+    [[slides]](files/slides-ens-2015.pdf)
+    [[more files]](http://openscience.ens.fr/MARIE_FARGE_ON_OPEN_ACCESS/2015_CONFERENCES_ON_OPEN_ACCESS/2015_10_22_OPEN_ACCEESS_WEEK_ENS_PARIS/)
 -   [Journées Accès Ouvert (Open Access
     Days)](http://jao2015.sciencesconf.org/) organised by the
-    [Couperin](http://www.couperin.org/) consortium (Paris, 12-14
-    october 2015) [[slides]](files/slides-jao-2015.pdf)
--   [Open Access Montpellier](http://oam.biu-montpellier.fr/)
-    (Montpellier, 29 september 2015)
--   [LIBER 2015](http://www.liber2015.org.uk/) (London, 24-26 june 2015)
+    [Couperin](http://www.couperin.org/) consortium,
+    Paris, October 12-14, 2015.
+    [[slides]](files/slides-jao-2015.pdf)
+-   [Open Access Montpellier](http://oam.biu-montpellier.fr/),
+    Montpellier, September 29, 2015.
+-   [LIBER 2015](http://www.liber2015.org.uk/),
+    London, June 24-26, 2015.
     [[slides]](files/slides-liber-2015.pdf)
 -   [Groupe de Travail pour l'Accès Ouvert (Open Access Working
     Group)](http://www.couperin.org/groupes-de-travail-et-projets-deap/open-access)
-    at Couperin (Paris, 8 june 2015)
--   [Open Research Cambridge](https://twitter.com/openrescam) (Cambridge
-    UK, 27 april 2015)
+    at Couperin,
+    Paris, June 8, 2015.
+-   [Open Research Cambridge](https://twitter.com/openrescam),
+    Cambridge (UK), April 27, 2015.
+
+</div>
 
 <div id="dons" markdown="1" class="highlighter">
-<div id="donate" markdown="1" class="highlighter">
+<div id="donate" class="highlighter">
 
-Donate
-------
+Donate to CAPSH
+---------------
 
 Our association welcomes donations:
 
@@ -55,7 +83,10 @@ us!
 </div>
 </div>
 
-Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
+<div id="statutes" markdown="1" class="highlighter">
+<div id="statuts" class="highlighter">
+
+Statutes (in French)
 --------------------
 
 -   [The association's statutes](files/statuts.pdf)
@@ -63,9 +94,20 @@ Statutes (in French) <a id="statutes"></a><a id="statuts"></a>
     assembly](files/pv-ag-constitutive.pdf)
 -   [Announcement in the "Journal Officiel"](files/extrait-jo.pdf)
 
-Press review <a id="press"></a><a id="revue"></a>
+</div>
+</div>
+
+<div id="press" markdown="1" class="highlighter">
+<div id="revue" class="highlighter">
+
+Press review
 ------------
 
+-   Dissemin was presented in Marie Farge's chronicle *[Les chercheurs reprennent le contrôle de la
+    dissémination de leurs
+    œuvres](http://openscience.ens.fr/MARIE_FARGE_ON_OPEN_ACCESS/2016_CHRONIQUES_POUR_LA_REVUE_I2D/2016_08_01_Chronique_2.pdf)*
+    (in French). In
+    [I2D](http://www.adbs.fr/i2d-information-donnees-documents-147521.htm?RH=1426693578415&RF=1426693578415), Volume 53, number 2, June 30, 2016.
 -   Dissemin mentioned in the [roadmap of the CCSD for
     2016-2020](http://blog.ccsd.cnrs.fr/2016/06/feuille-de-route-du-ccsd-2016-2020/)
     (French),
@@ -91,4 +133,7 @@ Press review <a id="press"></a><a id="revue"></a>
     Dissemin](https://explore.univ-psl.fr/fr/actualit%C3%A9s/lancement-de-la-plateforme-dissemin)
     (French), October 26, 2015, [PSL
     Explore](https://explore.univ-psl.fr/fr)
+
+</div>
+</div>
 

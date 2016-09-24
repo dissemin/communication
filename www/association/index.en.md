@@ -89,9 +89,10 @@ us!
 Statutes (in French)
 --------------------
 
+-   [Transcript of the 2016 general assembly](files/pv-ag-2016.pdf)
 -   [The association's statutes](files/statuts.pdf)
 -   [Transcript of the founding general
-    assembly](files/pv-ag-constitutive.pdf)
+    assembly (2015)](files/pv-ag-2015.pdf)
 -   [Announcement in the "Journal Officiel"](files/extrait-jo.pdf)
 
 </div>

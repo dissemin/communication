@@ -84,9 +84,10 @@ pour votre soutien !
 Statuts de CAPSH
 ----------------
 
+-   [Procès-verbas de l'assemblée générale de 2016](files/pv-ag-2016.pdf)
 -   [Statuts de l'association](files/statuts.pdf)
 -   [Procès-verbal de l'assemblée générale
-    constitutive](files/pv-ag-constitutive.pdf)
+    constitutive (2015)](files/pv-ag-2015.pdf)
 -   [Extrait du Journal Officiel publiant la déclaration de
     l'association](files/extrait-jo.pdf)
 

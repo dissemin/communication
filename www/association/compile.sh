@@ -7,6 +7,7 @@ cd "$DIR"
 
 mkdir -p _build/
 cp -r css _build/css
+cp -r files _build/files
 
 for lang in fr en; do
     IN="index.${lang}.md"

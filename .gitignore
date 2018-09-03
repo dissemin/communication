@@ -13,3 +13,6 @@
 # Vim
 *.swp
 poster.pdf
+*.out
+rescrit_interet_general/main.pdf
+rescrit_interet_general/main.tns

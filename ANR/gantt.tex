@@ -1,43 +1,46 @@
-\documentclass{standalone}
-\usepackage{times}
-\usepackage{pgfgantt}
 
-\begin{document}
-  \pgfmathsetmacro{\myx}{\linewidth / 2 / 12}
-  \noindent\begin{ganttchart}[time slot unit=month,time slot
-      format=isodate-yearmonth, x
-    unit={\myx pt},vgrid={*{11}{draw=none},*1{dotted}}, y unit title
-    =1.6em, y unit chart=1.6em,
-  bar height=.8,milestone inline label node/.append
-style={anchor=east,right,inner sep=1em,green!50!black}]{2019-10}{2021-9}
-    \ganttset{milestone/.append style={green!50!black}}
-    \gantttitlecalendar{year}
-    \\
-    \gantttitlecalendar{month}
-    \\
-    \ganttbar[inline,name=design]{\textbf{1:} Design
-    }{2019-10}{2020-2}
-    \\
-    \ganttbar[inline,name=dev]{\textbf{2:} Software development
-    }{2020-1}{2021-9}
-    \\
-    \ganttbar[inline,name=doc]{\textbf{3:} Documentation
-    }{2020-3}{2021-9}
-    \\
-    \ganttbar[inline]{\textbf{4:} A.
-     }{2020-5}{2020-6}
-    \ganttbar[inline]{\textbf{4:} A.
-     }{2021-5}{2021-6}
-    \\
-    \ganttmilestone[inline,name=platform]{Deployment of the institutional view}{2020-06}
-    \\
-    \ganttbar[inline,name=comm]{\textbf{5:} Communication, outreach
-    }{2020-7}{2021-9}
-    \\
-    \ganttbar[inline]{\textbf{6:} Project management
-    }{2019-10}{2021-9}
-    \\
-    \ganttset{link/.style={green!50!black}}
-    \ganttlink[link mid=0]{platform}{comm}
-  \end{ganttchart}
-\end{document}
+
+    \documentclass{standalone}
+    \usepackage{times}
+    \usepackage{pgfgantt}
+     
+    \begin{document}
+      \pgfmathsetmacro{\myx}{\linewidth / 2 / 12}
+      \noindent\begin{ganttchart}[time slot unit=month,time slot
+          format=isodate-yearmonth, x
+        unit={\myx pt},vgrid={*{11}{draw=none},*1{dotted}}, y unit title
+        =1.6em, y unit chart=1.6em,
+      bar height=.8,milestone inline label node/.append
+    style={anchor=east,right,inner sep=1em,green!50!black}]{2020-1}{2021-12}
+        \ganttset{milestone/.append style={green!50!black}}
+        \gantttitlecalendar{year}
+        \\
+        \gantttitlecalendar{month}
+        \\
+        \ganttbar[inline,name=design]{\textbf{1:} Design
+        }{2020-1}{2020-5}
+        \\
+        \ganttbar[inline,name=dev]{\textbf{2:} Software development
+        }{2020-4}{2021-12}
+        \\
+        \ganttbar[inline,name=doc]{\textbf{3:} Documentation
+        }{2020-6}{2021-12}
+        \\
+        \ganttbar[inline]{\textbf{4:} A.
+         }{2020-9}{2020-10}
+        \ganttbar[inline]{\textbf{4:} A.
+         }{2021-9}{2021-10}
+        \\
+        \ganttmilestone[inline,name=platform]{Deployment of the institutional view}{2020-9}
+        \\
+        \ganttbar[inline,name=comm]{\textbf{5:} Communication, outreach
+        }{2020-10}{2021-12}
+        \\
+        \ganttbar[inline]{\textbf{6:} Project management
+        }{2020-1}{2021-12}
+        \\
+        \ganttset{link/.style={green!50!black}}
+        \ganttlink[link mid=0]{platform}{comm}
+      \end{ganttchart}
+    \end{document}
+

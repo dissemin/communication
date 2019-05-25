@@ -14,10 +14,11 @@
 *.swp
 poster.pdf
 *.out
+*.tns
 rescrit_interet_general/main.pdf
-rescrit_interet_general/main.tns
 rescrit_interet_general/reponse.pdf
-rescrit_interet_general/reponse.tns
+rescrit_interet_general/reponse2.pdf
 pv_ag/2019_ex.pdf
 statuts/statuts_2019.pdf
 ANR/gantt.pdf
+pv_ag/pv-ag*

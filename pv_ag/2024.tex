@@ -1,0 +1,121 @@
+\documentclass[a4paper]{article}
+
+\usepackage[official]{eurosym}
+\usepackage{babel}
+\usepackage{hyperref}
+
+\title{Procès-verbal de l'assemblée générale 2024}
+\date{3 juillet 2024}
+
+\begin{document}
+
+\maketitle
+
+L'assemblée générale ordinaire du Comité pour l'Accessibilité aux Publications
+en Sciences et Humanités (C.A.P.S.H.) s'est tenue le 3 juillet 2024 à 16h35,
+sur la plateforme de discussion en ligne BigBlueButton du département INFRES de Télécom Paris.
+
+\begin{itemize}
+  \item Présidence de séance : Antoine Amarilli
+  \item Secrétaire de séance : Antoine Amarilli
+  \item Liste des présents : Antoine Amarilli, Antonin Delpeuch, Marie Farge,
+    Pierre Senellart, N Smith
+\end{itemize}
+
+\section{Ordre du jour}
+
+\begin{itemize}
+\item Bilan financier
+\item Bilan moral
+\item Avenir du service Dissemin
+\item Élection du conseil d'administration
+\end{itemize}
+
+\section{Bilan financier}
+
+Antoine Amarilli présente le bilan financier de l'association (en anglais).
+
+Following the latest financial report at the 2023 AGM, as June 26, 2023, the bank account contained: 875.02 EUR.
+
+Since then the spendings were:
+
+\begin{itemize}
+  \item Online hosting: Online 172.45 EUR 13 times (last time July 1st, 2023)
+  \item Domain name: Gandi 17.99 EUR
+\end{itemize}
+
+The income was:
+
+\begin{itemize}
+  \item Wise "balance discounts": 0.92 EUR, 1.25 EUR, 1.66 EUR, 1.49 EUR, 1.39 EUR, 1.31 EUR, 2.48 EUR, 2.25 EUR, 1.88 EUR, 1.78 EUR, 1.88 EUR, 2.74 EUR
+  \item ENS: Trésor public 944.70 EUR (4th invoice)
+  \item ENS: Trésor public 1034.70 EUR (5th invoice)
+  \item ENS: Trésor public 1034.70 EUR (6th invoice)
+  \item Liberapay payouts via Stripe: 9.65 EUR, 9.99 EUR, 1.93 EUR
+\end{itemize}
+
+The project receives 0.51 EUR/week from 2 donors on Liberapay.
+
+The total is a positive income of 796.86 EUR. As of July 1st, 2024, the bank account contains: 1671.88 EUR
+
+The last ENS invoice covers the period until Jan 31st, 2024. We can still
+invoice them one last time, until the project end (July 29, 2024). We can still
+cover for around 9 months of server hosting costs in addition to that.
+
+Le bilan financier est mis aux voix. Il est adopté à l'unanimité.
+
+\section{Bilan moral : activité et améliorations du service}
+
+Pierre Senellart présente le bilan moral de l'association (en anglais).
+
+Various improvements have been done, including improving the speed of the Crossref import, but the small size of the server's disks is making Crossref ingestion overly complicated. The new strategy to import Crossref is to import the raw data in a SQL table and compare it with the existing records inside SQL, to figure out which records need upgrading. Pierre plans to write about this in the final FNSO report, to have some lessons learned (about the costs of an ORM, for instance, and other design issues such as the storage of recomputed data instead of the original Crossref data, making updating harder).
+
+It's unclear if it's worth encouraging others to adopt the code base given those architectural issues, plus HAL has improved a lot so the need for the service is less clear. The world has also changed since Dissemin has started, meaning that the use cases have evolved too.
+
+Marie further shares with the AGM a document with her activities about promoting the platform.
+
+N mentions the possible remaining uses of Dissemin, e.g., the disambiguation of papers and the connection of similar papers across repositories.
+
+A discussion ensures about possible discussions with CCSD and ways to transfer some of our expertise to them.
+
+Statistics: between 2023-07-01 and 2024-07-01, we had 163 attempted deposits, of which 57 successful, made by 21 different users.
+
+Le bilan moral est mis aux voix et il est approuvé à l'unanimité.
+
+\section{Avenir du service Dissemin}
+
+La discussion se poursuit sur l'avenir du service Dissemin suite à la fin du
+financement FNSO. Cette discussion est en anglais.
+
+Marie proposes several directions for interaction with Mathdoc and connections to GDML.
+
+The planning is:
+
+\begin{itemize}
+  \item October 1st: put a banner
+  \item Dec 31st: close the service
+\end{itemize}
+
+The German partners (Darmstadt, Braunschweig, Stuttgart) have been contacted.
+
+A debate ensues about how the closure should be announced.
+
+No Free View No Review will be migrated by Antonin to another server.
+
+Pierre will keep a backup of the Dissemin data and deposit data.
+
+Antonin takes care of disabling the Translatewiki project.
+
+Antoine takes care of disabling Liberapay.
+
+\section{Élection du conseil d'administration}
+
+Antoine Amarilli, Antonin Delpeuch et Marie Farge candidatent aux fonctions de
+membre du conseil d'administration. Leur candidature est approuvée à
+l'unanimité.
+
+\section{Discussions diverses}
+
+L'ordre du jour étant épuisé, la séance est levée à 17h45.
+
+\end{document}
